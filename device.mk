@@ -374,6 +374,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.1.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
+# Setting vendor SPL
+VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
+
 # Source
 ifneq ($(findstring aosp, $(TARGET_PRODUCT)),)
 PRODUCT_HOST_PACKAGES += \
