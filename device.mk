@@ -227,7 +227,7 @@ PRODUCT_PACKAGES += \
 # Hentai Dark Wallpeper
 PRODUCT_PACKAGES += \
     HentaiWallpaperDark
-    
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -311,6 +311,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
+
+# Perfd dummy
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
 
 # Power
 PRODUCT_PACKAGES += \
