@@ -42,8 +42,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
-# Inherit from ginkgo device
-$(call inherit-product, device/xiaomi/ginkgo/device.mk)
+# Inherit from willow device
+$(call inherit-product, device/xiaomi/ginkgo/device-willow.mk)
 
 # Device identifiers
 PRODUCT_NAME := hentai_willow
