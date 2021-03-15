@@ -1,0 +1,6 @@
+#
+# ginkgo specific properties
+#
+
+ro.boot.product.hardware.sku=ginkgo
+persist.vendor.camera.model="Redmi Note 8"

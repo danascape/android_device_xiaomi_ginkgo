@@ -1,0 +1,6 @@
+#
+# willow specific properties
+#
+
+ro.boot.product.hardware.sku=willow
+persist.vendor.camera.model="Redmi Note 8T"
