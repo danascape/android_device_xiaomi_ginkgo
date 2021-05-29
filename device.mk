@@ -92,7 +92,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaudio-resampler \
     libaudioroute \
-    libtinycompress \
     libvolumelistener
 
 PRODUCT_PACKAGES += \
