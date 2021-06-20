@@ -252,7 +252,7 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service
 
 # Kernel
-LOCAL_KERNEL := device/xiaomi/ginkgo-kernel/kernel
+LOCAL_KERNEL := device/xiaomi/ginkgo-kernel/Image.gz
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
