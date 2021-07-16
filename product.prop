@@ -1,6 +1,6 @@
 # Pixel identification
 ro.build.description=sunfish-user 11 RQ2A.210405.005 7181113 release-keys
-ro.build.fingerprint=google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys
+ro.build.fingerprint=google/sunfish/sunfish:11/RQ3A.210705.001/7380771:user/release-keys
 ro.product.manufacturer=Google
 ro.product.device=sunfish
 ro.product.brand=Google
