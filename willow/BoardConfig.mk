@@ -16,12 +16,15 @@
 
 include device/xiaomi/ginkgo/BoardConfig-common.mk
 
-# Properties
-TARGET_VENDOR_PROP += device/xiaomi/ginkgo/willow/vendor.prop
-
 # HIDL
 ODM_MANIFEST_WILLOW_FILES := device/xiaomi/ginkgo/manifest_willow.xml
 ODM_MANIFEST_SKUS += willow
 
 # NFC
 TARGET_USES_NQ_NFC := true
+
+# Properties
+TARGET_VENDOR_PROP += device/xiaomi/ginkgo/willow/vendor.prop
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/willow-firmware

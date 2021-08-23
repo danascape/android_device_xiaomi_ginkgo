@@ -163,9 +163,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
-
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 

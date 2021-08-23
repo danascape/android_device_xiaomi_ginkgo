@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+include device/xiaomi/ginkgo/BoardConfig-common.mk
+
+# Properties
 TARGET_VENDOR_PROP += device/xiaomi/ginkgo/ginkgo/vendor.prop
 
-include device/xiaomi/ginkgo/BoardConfig-common.mk
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/ginkgo-firmware
