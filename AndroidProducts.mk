@@ -15,9 +15,11 @@
 #
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_ginkgo.mk \
     $(LOCAL_DIR)/hentai_ginkgo.mk \
     $(LOCAL_DIR)/hentai_willow.mk
 
 COMMON_LUNCH_CHOICES := \
+    aosp_ginkgo-userdebug \
     hentai_ginkgo-userdebug \
     hentai_willow-userdebug
