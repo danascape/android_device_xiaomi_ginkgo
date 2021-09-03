@@ -36,6 +36,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
     vendor/qcom/opensource/data-ipa-cfg-mgr
 
+ifneq ($(findstring aosp, $(TARGET_PRODUCT)),)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/sm8150
+endif
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
