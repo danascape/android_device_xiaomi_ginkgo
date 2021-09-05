@@ -42,6 +42,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device-ginkgo.mk)
+$(call inherit-product, device/xiaomi/ginkgo/device-hidl.mk)
 
 # Device identifiers
 PRODUCT_NAME := aosp_ginkgo
