@@ -45,6 +45,7 @@ TARGET_GAPPS_ARCH := arm64
 
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
+$(call inherit-product, device/xiaomi/ginkgo/device-hidl.mk)
 
 # Device identifiers
 PRODUCT_NAME := hentai_ginkgo

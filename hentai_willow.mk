@@ -45,6 +45,7 @@ TARGET_GAPPS_ARCH := arm64
 
 # Inherit from willow device
 $(call inherit-product, device/xiaomi/ginkgo/device-willow.mk)
+$(call inherit-product, device/xiaomi/ginkgo/device-hidl.mk)
 
 # Device identifiers
 PRODUCT_NAME := hentai_willow
