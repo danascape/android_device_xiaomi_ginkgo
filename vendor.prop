@@ -195,9 +195,6 @@ ro.hardware.keystore_desede=true
 vendor.power.pasr.enabled=true
 vendor.pasr.activemode.enabled=true
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # Privapp-permissions whitelist
 ro.control_privapp_permissions=log
 
