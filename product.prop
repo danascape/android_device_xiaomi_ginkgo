@@ -1,7 +1,7 @@
 # Pixel identification
-ro.build.fingerprint=google/redfin/redfin:12/SP1A.210812.015/7679548:user/release-keys
+ro.build.fingerprint=google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys
 ro.product.manufacturer=Google
-ro.product.device=redfin
+ro.product.device=raven
 ro.product.brand=Google
-ro.product.name=redfin
-ro.product.model=Pixel 5
+ro.product.name=raven
+ro.product.model=Pixel 6 Pro
